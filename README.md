@@ -21,7 +21,7 @@ This repo contains the application, Docker setup, tests, and CI/CD workflow to b
 1. Code pushed to `main` branch triggers Jenkins Pipeline.  
 2. Dependencies installed and tests executed.  
 3. Docker image built and pushed to Docker Hub.  
-4. GitOps repository `values.yaml` updated with new image tag automatically.  
+4. [GitOps repository](https://github.com/Jyothi-03/service-monitor-gitops.git) `values.yaml` updated with new image tag automatically.  
 5. Helm deployment can use the updated tag for deployment.
 
 ## Local Testing
